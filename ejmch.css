@@ -1,0 +1,50 @@
+.caja-1{
+    
+    width: 30%;
+    height: 460px;
+    background:palevioletred;
+    padding: 20px;
+    float: left;
+    
+}
+.foto-1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+}
+.caja-2{
+  float: left;
+  padding: 20 px;
+  width: 60%;
+  background:palevioletred;
+  height: 250px;
+}
+
+.article{
+    column-count: 2;
+    column-gap: 50px;
+    color: white;
+    text-align: center;
+}
+
+   
+.caja-3{
+    float: left;
+  padding: 20 px;
+  width: 60%;
+  background: palevioletred;
+  height: 250px;
+
+}
+
+.foto{
+    height: 100px;
+    width: 120px;
+}
+
+@media only screen and (max-width:480px){
+    .caja-1 , .caja-2{
+        width: 100%;
+        height: auto;
+    }
