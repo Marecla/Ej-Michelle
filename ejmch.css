@@ -4,14 +4,20 @@
     height: 460px;
     background:palevioletred;
     padding: 20px;
-    float: left;
-    
+    float: left;   
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
 .foto-1{
     height: 300px;
     width: 300px;
     border-radius: 50%;
-
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    
 }
 .caja-2{
   float: left;
@@ -19,13 +25,21 @@
   width: 60%;
   background:palevioletred;
   height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
 }
 
 .article{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+   
+}
+
+p{
     column-count: 2;
-    column-gap: 50px;
     color: white;
-    text-align: center;
 }
 
    
@@ -33,14 +47,21 @@
     float: left;
   padding: 20 px;
   width: 60%;
-  background: palevioletred;
+  background:palevioletred;
   height: 250px;
-
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+
+
 .foto{
-    height: 100px;
-    width: 120px;
+    height: 90px;
+    width: 110px;
+    padding: 10px;
+   
 }
 
 @media only screen and (max-width:480px){
@@ -48,3 +69,4 @@
         width: 100%;
         height: auto;
     }
+}
