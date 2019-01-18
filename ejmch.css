@@ -1,3 +1,4 @@
+  
 .caja-1{
     width: 30%;
      height: 460px;
@@ -5,14 +6,15 @@
      padding: 20px;
      float: left;
      display: flex;
-     flex-direction: row;
-     align-self: center;
+     justify-content:center;
+     align-items: center;
+    
  }
  
  .imagen{
- display: flex;
- flex-direction: row;
- align-self: center;
+    display: flex;
+    justify-content:center;
+    align-items: center
  }
  
  .imagen img{
@@ -27,25 +29,25 @@
    width: 60%;
    background:palevioletred;
    height: 250px;
-   display: flex;
-   flex-direction: row;
-   align-items: baseline;
    color: white;
+   display: flex;
+   justify-content:center;
+   align-items: center;   
  }
  .columna-1{
      float: left;
-     width: 40%;
+     width: 30%;
      padding: 10px;     
  }
  .columna-2{
     float: left;
-     width: 40%;
+     width: 30%;
      padding: 10px;    
  }
  .columnas{
-     display: flex;
-     flex-direction: row;
-     align-self: center;  
+    display: flex;
+   justify-content:center;
+   align-items: baseline;
  }
  
  .caja-3 {
@@ -56,7 +58,7 @@
    display: flex;
    justify-content:center;
    align-items: center;
-   flex-wrap: wrap;
+
  }
    
  
@@ -65,15 +67,13 @@
      width: 110px;
      padding: 10px;  
  }
- .gatitos-1{
+ .gatitos1{
      display: flex;
-     flex-direction: row;
      justify-content: center;
      align-items: center;
  }
- .gatitos-3{
+ .gatitos3{
      display: flex;
-     flex-direction: row;
      justify-content: center;
      align-items: center;
  }
@@ -98,8 +98,16 @@
      .caja-3{
          width: 100%;
          height: auto;
-         padding: 20px;
+         padding: 20px;   
      }
-   
- 
- }
+     .gatitos{
+         width: 100%;
+         display:flex;
+         flex-direction: column;
+     }
+     .gatitos1{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+     }
+    }
