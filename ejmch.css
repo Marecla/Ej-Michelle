@@ -1,72 +1,104 @@
 .caja-1{
-    
     width: 30%;
-    height: 460px;
-    background:palevioletred;
-    padding: 20px;
-    float: left;   
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-}
-.foto-1{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+     height: 460px;
+     background:palevioletred;
+     padding: 20px;
+     float: left;
+     display: flex;
+     flex-direction: row;
+     align-self: center;
+ }
+ 
+ .imagen{
+ display: flex;
+ flex-direction: row;
+ align-self: center;
+ }
+ 
+ .imagen img{
+     height: 300px;
+     width: 300px;
+     border-radius: 50%;
+ }
+ 
+ .caja-2{
+   float: left;
+   padding: 20 px;
+   width: 60%;
+   background:palevioletred;
+   height: 250px;
+   display: flex;
+   flex-direction: row;
+   align-items: baseline;
+   color: white;
+ }
+ .columna-1{
+     float: left;
+     width: 40%;
+     padding: 10px;     
+ }
+ .columna-2{
     float: left;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    
-}
-.caja-2{
-  float: left;
-  padding: 20 px;
-  width: 60%;
-  background:palevioletred;
-  height: 250px;
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-}
-
-.article{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
+     width: 40%;
+     padding: 10px;    
+ }
+ .columnas{
+     display: flex;
+     flex-direction: row;
+     align-self: center;  
+ }
+ 
+ .caja-3 {
+   float: left;
+   width: 60%;
+   background:palevioletred;
+   height: 250px;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-wrap: wrap;
+ }
    
-}
-
-p{
-    column-count: 2;
-    color: white;
-}
-
-   
-.caja-3{
-    float: left;
-  padding: 20 px;
-  width: 60%;
-  background:palevioletred;
-  height: 250px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-
-
-.foto{
-    height: 90px;
-    width: 110px;
-    padding: 10px;
-   
-}
-
-@media only screen and (max-width:480px){
-    .caja-1 , .caja-2{
-        width: 100%;
-        height: auto;
-    }
-}
+ 
+ .gatitos img{
+     height: 90px;
+     width: 110px;
+     padding: 10px;  
+ }
+ .gatitos-1{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+ .gatitos-3{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .gatitos{
+      display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ 
+ @media only screen and (max-width:360px){
+     .caja-1 {
+         width: 100%;
+         height: auto;
+     }
+     .caja-2{
+         width: 100%;
+         height: auto;
+         padding: 20px;
+     }
+     .caja-3{
+         width: 100%;
+         height: auto;
+         padding: 20px;
+     }
+ 
+ }
