@@ -98,9 +98,22 @@
      .caja-3{
          width: 100%;
          height: auto;
-         padding: 20px;  
-     }
+         padding: 20px;
+             }
      .gatitos{
         flex-direction: column;
      }    
+     .gatitos1{
+         justify-content: space-between;
+     }
+
+     .gatitos1 img {
+         margin-left: 100px;
+         margin-right: 100px;
+     }
+
+     .gatitos3 img{
+        margin-left: 100px;
+        margin-right: 100px;
+     }
     }
